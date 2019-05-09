@@ -1,4 +1,4 @@
-,h1>Contact Manager</h1>
+<h1>Contact Manager</h1>
 <ol>
 <li>The app does the validation and then go on to add the contact.</li>
 <li>It gives the prefilled form on clicking the edit option.</li>
