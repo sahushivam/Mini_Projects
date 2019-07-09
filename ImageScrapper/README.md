@@ -7,5 +7,7 @@
   <li><b>-A</b> sets a whitelist for retrieving only certain file types.</li>
   <li><b>-r -l 1</b>: recursive level 1</li>
   <li><b>-e robots=off</b>: execute command robotos=off as if it was part of .wgetrc file. This turns off the robot exclusion which means you ignore robots.txt and the robot meta tags (you should know the implications this comes with, take care).</li>
-
+<br>
 Make the scraper.sh shell script executable: chmod +x scraper.sh
+<br><br>
+<h2>Image Scrapper from multiple url can be found in Image-scraper-From-Multiple-Site folder</h2>
