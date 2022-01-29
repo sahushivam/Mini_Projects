@@ -1,0 +1,19 @@
+/*
+1. Apis
+    a. Create a dataset / createDataset(name)
+    b. Create a documents (DatasetName, DocumentName, content)
+    c. List<Document> SearchDocuments(String, Dataset)
+
+1. Searching
+    Documents - groups /
+        <Word, frequency> - O(1)-average case
+                            O(N) - n documents
+        Dataset Hashmap- <Word, List<Pair<frequency, documentName>>> O(1)
+        query - m words
+        O(m) timecomplexity for
+
+        search order
+
+*/
+
+
