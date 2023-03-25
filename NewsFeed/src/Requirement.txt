@@ -1,0 +1,40 @@
+Requirement
+    -signup/login
+    -news feeds
+        - comment
+        - upvote
+        - downvote
+        - post
+        - showsnewsfeed
+        - follow other users
+
+Objects
+    - User
+        List<String> followers;
+        List<String> following;
+        List<postId> posts;
+    - Post
+        - user
+        - text
+        - upvote
+        - downvote
+        - Comment
+            - reply
+    - Comment
+        - upvote
+        - downvote
+
+APIs
+    UserService
+        - Signup
+        - Login
+    PostService
+        - post(userId, text)
+    InteractionService
+        - upvote(userId, postId)
+        - downvote(userId, postId)
+        - comment(postId, text)
+        - comment(parentCommentId, text)
+    NewsFeedService
+        getFeeds(userId)
+         <select * from posts where userId in (list of followers)>
