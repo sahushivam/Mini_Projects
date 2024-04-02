@@ -1,0 +1,24 @@
+1. Gather Requirement
+    Functional Requirement
+    Non Functional Requirement
+
+2. Define Domain Object
+        Naming
+        Composition
+        Inheritance
+
+3. APIs
+    Caching
+    Concurrency
+    Testing
+
+4. Test
+
+
+
+
+
+
+
+Note
+    Using a BigDecimal instead of a double value would be preferred in a financial application. The double may have precision errors.
